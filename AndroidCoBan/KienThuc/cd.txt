@@ -1,0 +1,15 @@
+android:layout_alignParentBottom = “true” – cạnh dưới của TextView trùng với
+cạnh dưới của layout chứa nó (tương tự Top,Left,Right)
+
+Sử dụng android:layout_above = “id widget nằm dưới” – TextView nằm trên widget có
+id được thuộc tính trỏ tới. Tương tự android:layout_below = “id widget nằm trên” –
+TextView nằm dưới widget óc id được thuộc tính trỏ tới.
+
+app:layout_constraintTop_toTopOf="parent" – thuộc tính này dùng để xác định
+top của TextView có điểm neo với top của layout chứa nó hoặc widget nào đó (cụ
+thể ở đây là layout chứa TextView)
+
+app:layout_constraintBottom_toBottomOf="@+id/lineHorizontal" – tương tự
+như trên thuộc tính này để xác định Bottom của TextView có điểm neo trùng với
+Guideline ngang.
+

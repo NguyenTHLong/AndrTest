@@ -1,0 +1,37 @@
+Buổi 3:
+
+Đơn vị đo:
+1. px – pixel còn được gọi là điểm ảnh
+2. dp, hay dip hay Density-independent Pixels, có khi được gọi là Device-independent Pixels:
+160 dp = 1 inch - điều này có nghĩa 1dp = 1/160 = 0.00625 inch
+1 dp có thể chứa 1 hay nhiều pixel.
+3. PT – Point:
+PT – viết tắt của Point, khái niệm pt tương tự như dp là một đơn vị đo kích thước thực, nhưng khác với dp:
+1 pt = 1/72 inch, trong khi 1 dp = 1/160 inch
+pt thường được dùng trong lập trình iOS.
+4. SP – Scale-independent Pixels:
+Cũng tương tự như dp, nhưng sp thường được dùng cho font size của văn bản.
+
+LinearLayout: => Orientation (Sắp xếp theo chiều) -vertical:dọc / horizontal:ngang
+
+
+match_parent:theo kích cỡ của cha
+wrap_content:theo kích cỡ của con
+
+textSize
+textColor
+textStyle
+textAllCaps
+
+gravity:vị trí của con theo cha             
+layout_gravity:vị trí của cha với màn hình
+
+padding:căn lề của con so với cha
+margin:căn lề cha so với màn hình
+
+ellipsize (): Nếu nội dung quá dài sẽ cắt văn bản và để lại dấu ...,luôn đi kèm singleLine
+singleLine="true": trên cùng 1 dòng
+
+Ctrl+Alt+L:format code
+
+
